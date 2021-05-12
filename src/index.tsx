@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import { FeatureToggle } from "./components/FeatureToggleProvider";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FeatureToggle>
+      <App />
+    </FeatureToggle>
   </React.StrictMode>,
   document.getElementById("root")
 );
