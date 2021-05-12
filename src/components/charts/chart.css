@@ -1,0 +1,12 @@
+.ant-card {
+  margin: 20px 0;
+}
+
+.ant-card:first-child {
+  margin-top: 0;
+}
+
+.ant-card .ant-card-chart {
+  width: 100%;
+  height: 400px;
+}
